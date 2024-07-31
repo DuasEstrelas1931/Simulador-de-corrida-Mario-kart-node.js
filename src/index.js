@@ -215,6 +215,6 @@ const player1 = {
       `🏁🚨 Corrida entre ${choosePlayer1.NOME} e ${choosePlayer2.NOME} começando...\n`
     );
   
-    await playRaceEngine(player1, player2);
+    await playRaceEngine(choosePlayer1, choosePlayer2);
     await declareWinner(choosePlayer1, choosePlayer2);
   })();
